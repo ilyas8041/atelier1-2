@@ -1,5 +1,5 @@
 def fibonacci(n):   # on utilise la recursivite pour determiner les termes de fibonacci
-    if(n <= 1):
+    if(n <= 1):     # la condition d'arret est n = 1
         return n
     else:
         return (fibonacci(n - 1) + fibonacci(n - 2))
